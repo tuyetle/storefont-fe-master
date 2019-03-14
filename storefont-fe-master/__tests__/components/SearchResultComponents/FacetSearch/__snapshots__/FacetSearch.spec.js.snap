@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) MTFilterForm should render conrectly 1`] = `
+<nav>
+  <ul
+    className={
+      Object {
+        "data-css-1ip94nh": "",
+      }
+    }
+  />
+</nav>
+`;

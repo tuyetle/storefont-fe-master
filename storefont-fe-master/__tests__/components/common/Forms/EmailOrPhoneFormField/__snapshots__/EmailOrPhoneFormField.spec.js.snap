@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) EmailOrPhoneFormField should render conrectly 1`] = `
+<input
+  className="test null"
+  id=""
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  placeholder="auth:emailOrPhone"
+  type="text"
+  value=""
+/>
+`;

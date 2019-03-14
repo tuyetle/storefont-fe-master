@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultItem should match snapshot 1`] = `
+<div
+  className={
+    Object {
+      "data-css-lv9ezv": "",
+    }
+  }
+>
+  <img
+    alt="Icon"
+    className={
+      Object {
+        "data-css-1d68q0k": "",
+      }
+    }
+    src="logo.png"
+  />
+  <span
+    className={
+      Object {
+        "data-css-1vf9l72": "",
+      }
+    }
+  >
+    <span
+      className={Object {}}
+    >
+      title
+    </span>
+  </span>
+</div>
+`;

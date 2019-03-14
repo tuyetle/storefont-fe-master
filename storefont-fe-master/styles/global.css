@@ -1,0 +1,26 @@
+/*import the external global classes*/
+@import "./bootstrap.css";
+@import "themes.css";
+@import "antd/lib/radio/style/index.css";
+@import "antd/lib/pagination/style/index.css";
+@import "antd/lib/breadcrumb/style/index.css";
+@import "slick-carousel/slick/slick.css";
+@import "react-select/dist/react-select.css";
+@import "./rcMenu.css";
+
+.body {
+    @apply  --font-montserrat;
+}
+
+.container {
+ min-width: 320px;
+ max-width: 100%;
+
+ @media (min-width: 576px) {
+   max-width: 100%;
+ }
+
+ @media (min-width: 768px) {
+   max-width: 1140px;
+ }
+}

@@ -1,0 +1,34 @@
+{
+    "shortDescription": "Mô tả ngắn",
+    "description": "Mô tả tổng quan",
+    "placeHolderTitle": "Tối đa {{MAX_LENGTH}} ký tự sử dụng tiếng Việt có dấu, không viết hoa toàn bộ",
+    "serviceInfo": "Thông tin dịch vụ",
+    "summaryChosenService": "Tóm tắt dịch vụ bạn đã chọn",
+    "listingType": "Loại tin đăng",
+    "amount": "Thành tiền",
+    "promotion": "Khuyến mãi",
+    "totalMoney": "Tổng tiền",
+    "displayedTimeLabel": "Thời gian hiển thị",
+    "displayedTime": "{{startDate, DATE_SHORT}} - {{endDate, DATE_SHORT}}",
+
+    "termAndCondition1": "Đồng ý với các ",
+    "termAndCondition2": "Điều khoản & Điều kiện",
+    "termAndCondition3": " của MBND",
+
+    "ResultText1": "Kết quả hiển thị",
+    "ResultText2": "Ứng với mỗi loại tin đăng, sẽ có kết quả hiển thị khác nhau",
+    "SaveListing": "Lưu tin đăng",
+
+    "RemainingTotal": "Số dư hiện tại",
+    "AddMore": "Nạp tiền",
+    "WarningMessage": "* Số dư hiện tại không đủ. Vui lòng nạp thêm",
+
+    "Preview": "Xem tin đăng",
+    "Header": "Thanh toán",
+    "SubHeader": "Chọn loại tin mà bạn muốn dùng, vui lòng nạp tiền vào tài khoản nếu bạn muốn sử dụng dịch vụ tốt nhất của chúng tôi",
+
+    "SampleTitle": "Bán nhà đẹp đầy đủ tiện nghi ở quận 10",
+    "SampleAddress": "12 Tôn Đản, P2, Q4, TP.HCM",
+
+    "Confirm": "Xác nhận thanh toán"
+}

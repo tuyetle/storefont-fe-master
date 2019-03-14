@@ -1,0 +1,73 @@
+@import './variables.css';
+
+:root {
+    --font-sans: {
+        font-family: 'sans-serif';
+        font-style: normal;
+        font-size: 2rem;
+        font-weight: 200;
+    };
+
+    --font-montserrat: {
+        font-family: "Montserrat";
+    }
+
+    --font-montserrat-medium: {
+        font-family: "Montserrat";
+        font-weight: 500;
+    }
+
+    --font-montserrat-light: {
+        font-family: "Montserrat";
+        font-weight: 300;
+    }
+
+    --font-montserrat-thin: {
+        font-family: "Montserrat";
+        font-weight: 100;
+    }
+
+
+    --clear: {
+        clear: both;
+    }
+
+    --error-field: {
+        border: 1px solid $formErrorColor;
+        border-radius: 0.3em;
+    }
+
+    --font-vnf-narziss: {
+        font-family: "VNF-Narziss";
+    }
+
+    --font-notoserif {
+        font-family: 'Noto Serif', serif;
+    }
+
+    --save-search-btn {
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: 1px solid gray;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+        margin: auto 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: block;
+        &:before {
+            margin-right: .5em;
+            font-family: FontAwesome;
+            content: "\\f006";
+        }
+        &:focus{
+            outline: none;
+        }
+        &:global(.success) {
+            border: 1px solid red;
+            color:white;
+            background-color: red;
+        }
+    }
+}

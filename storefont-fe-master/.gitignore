@@ -1,0 +1,9 @@
+/node_modules
+/package-lock.json
+/dist
+/automation_tests/reports
+/.chrome
+/.vscode
+yarn-error.log
+.next
+.env

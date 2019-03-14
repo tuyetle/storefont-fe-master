@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) MobileSearchBar should render conrectly 1`] = `
+<div
+  className="css-1yk6gsc"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="css-d051y2 row"
+    >
+      <div
+        className="col-12"
+      >
+        <div
+          className={
+            Object {
+              "data-css-1orrg7s": "",
+            }
+          }
+        >
+          <span
+            className={
+              Object {
+                "data-css-8wpge4": "",
+              }
+            }
+          />
+          <button
+            className="css-jf1dde closedFilter"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-mhmirh"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="css-11ixml4"
+          >
+            Field
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <h4
+            className="css-o1j11f"
+          />
+          <div
+            name="search-price"
+          >
+            <div
+              label={undefined}
+            >
+              NestedField
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <h4
+            className="css-o1j11f"
+          />
+          <div
+            name="search-bedrooms"
+          >
+            <div
+              label={undefined}
+            >
+              Field
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <h4
+            className="css-o1j11f"
+          />
+          <div
+            name="search-bathrooms"
+          >
+            <div
+              label={undefined}
+            >
+              Field
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <h4
+            className="css-o1j11f"
+          />
+          <div
+            name="area-search"
+          >
+            <div
+              label={undefined}
+            >
+              NestedField
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="css-1yop45h nav"
+      >
+        <li
+          className="nav-item"
+        >
+          <button
+            className="css-1n75pzv"
+            onClick={[Function]}
+          />
+          <div
+            className="css-bdaop0 collapse"
+            style={Object {}}
+          >
+            Field
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

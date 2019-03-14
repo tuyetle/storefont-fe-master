@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) PriceRange should render conrectly 1`] = `
+<section
+  className="css-1cjt15t"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <label
+        className="css-legfcw"
+      />
+      Field
+    </div>
+    <div
+      className="col-md-6 css-17xsdqc"
+    >
+      <label
+        className="css-legfcw"
+      />
+      Field
+    </div>
+  </div>
+</section>
+`;

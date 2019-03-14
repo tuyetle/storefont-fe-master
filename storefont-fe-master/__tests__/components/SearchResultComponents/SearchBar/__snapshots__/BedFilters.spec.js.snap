@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) BedFilters should render conrectly 1`] = `
+<section
+  className="css-31twqw"
+>
+  <div>
+    <label
+      className="css-u2zv12"
+    >
+      <input
+        className="css-1k7inrl"
+        defaultChecked={false}
+        onChange={[Function]}
+        type="checkbox"
+        value={1}
+      />
+      <span
+        className="css-ww42u9"
+      >
+        1
+      </span>
+    </label>
+    <label
+      className="css-u2zv12"
+    >
+      <input
+        className="css-1k7inrl"
+        defaultChecked={false}
+        onChange={[Function]}
+        type="checkbox"
+        value={2}
+      />
+      <span
+        className="css-ww42u9"
+      >
+        2
+      </span>
+    </label>
+  </div>
+</section>
+`;

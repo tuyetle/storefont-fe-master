@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AddressPropertyDetail should renders correctly 1`] = `
+<div
+  className={
+    Object {
+      "data-css-fisw11": "",
+    }
+  }
+>
+  <svg
+    className={
+      Object {
+        "data-css-yhgus": "",
+      }
+    }
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      fill="#686868"
+    >
+      <path
+        d="M255.5 111.5c-35.2 0-63.8 28.6-63.8 63.8 0 35.2 28.6 63.8 63.8 63.8 35.1 0 63.8-28.6 63.8-63.8 0-35.2-28.6-63.8-63.8-63.8zm0 109.3c-25.1 0-45.6-20.4-45.6-45.6 0-25.1 20.4-45.6 45.6-45.6 25.1 0 45.6 20.5 45.6 45.6 0 25.2-20.5 45.6-45.6 45.6zm0 0"
+      />
+      <path
+        d="M377.5 53.3c-33-33-76.9-51.2-123.5-51.2-46.7 0-90.6 18.2-123.6 51.2-61 61.1-68.6 175.9-16.4 245.6L254 501l139.7-201.9c52.4-69.8 44.8-184.7-16.2-245.8zm1.4 235.2L253.9 469 128.7 288.3c-47.3-63.2-40.6-166.9 14.5-222 29.6-29.5 68.9-45.8 110.7-45.8S335 36.8 364.5 66.3c55.2 55.1 62 158.8 14.4 222.2zm0 0"
+      />
+    </g>
+  </svg>
+  <span
+    className={
+      Object {
+        "data-css-1awbpa": "",
+      }
+    }
+  >
+    An Dương Vương, Phường Phú Thượng, Quận Tây Hồ
+  </span>
+  <span
+    className={
+      Object {
+        "data-css-vfobqd": "",
+      }
+    }
+  >
+    Bán
+  </span>
+</div>
+`;

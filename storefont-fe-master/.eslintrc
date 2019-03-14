@@ -1,0 +1,68 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+
+    "extends": [
+        "plugin:react/recommended",
+        "eslint:recommended",
+        "airbnb"
+    ],
+
+    "plugins": ["react"],
+
+    "rules": {
+        "indent": ["error", 2],
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "semi": "error",
+        "no-underscore-dangle": "off",
+        "global-require": "off",
+        wrap-iife: ["error", "inside"],
+        "jsx-a11y/label-has-for": "off",
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "react/forbid-prop-types": "off",
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-indent-props": ["error", 2],
+        "react/jsx-no-bind": ["error", {
+            "allowArrowFunctions": true,
+            "allowBind": false,
+            "ignoreRefs": true
+        }],
+        "react/no-did-update-set-state": "error",
+        "react/no-unknown-property": "error",
+        "react/no-unused-prop-types": "error",
+        "react/prop-types": "error",
+        "react/jsx-uses-vars": "error",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "jsx-a11y/href-no-hash": "off",
+    },
+    "env": {
+        "mocha": true
+    },
+    "globals": {
+        "__DEV__": fasle,
+        "__TEST__": fasle,
+        "window": false,
+        "document": false,
+        "module": fasle,
+        "require": false,
+        "React": false,
+        "console": false,
+        "global": false,
+        "expect": false,
+        "should": false,
+        "sinon": false,
+        "FileReader": false,
+        "EXIF": false,
+        "jest": false,
+        "mount": false,
+        "initI18nApp": false
+    }
+}

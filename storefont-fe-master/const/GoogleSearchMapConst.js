@@ -1,0 +1,16 @@
+const GoogleSearchMapConst = {
+  DEFAULT_ZOOM: 12,
+  DEFAULT_DETAIL_ZOOM: 15,
+  MIN_ZOOM: 2,
+  MAX_ZOOM: 18,
+  RADIUS: 60,
+  DEFAULT_CENTER_LAT: 10.8231,
+  DEFAULT_CENTER_LNG: 106.6297,
+  API_KEY: 'AIzaSyDdTPu0EBmH27YhvOdIAPTPlK_V-CRWckw',
+  DEFAULT_CIRCLE_RADIUS: 1000,
+  LISTING_TYPE: 'listing',
+  GROUP_LISTINGS_TYPE: 'listings',
+  CLUSTER_TYPE: 'cluster',
+};
+
+export default GoogleSearchMapConst;

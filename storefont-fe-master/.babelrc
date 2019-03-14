@@ -1,0 +1,52 @@
+{
+    "presets": [
+      ["env",{
+        "targets": {
+        "node": "8.9.1"
+      }
+      }],
+      "next/babel"],
+    "plugins": ["lodash", "inline-react-svg", ["import-static-files",{"baseDir": "/static"}],
+      [
+          "babel-plugin-root-import", [{
+                  "rootPathPrefix": "~",
+                  "rootPathSuffix": "."
+              },
+              {
+                  "rootPathPrefix": "#",
+                  "rootPathSuffix": "."
+              }
+          ]
+      ],
+      ["inline-dotenv"]
+    ],
+    "env": {
+        "test": {
+            "presets": [
+                ["env", { "modules": "commonjs" }], "next/babel"
+            ],
+            "plugins": [
+                "inline-react-svg", [
+                    "import-static-files",
+                    {
+                        "baseDir": "/static"
+                    }
+                ],
+                [
+                    "babel-plugin-root-import", [{
+                            "rootPathPrefix": "~",
+                            "rootPathSuffix": "."
+                        },
+                        {
+                            "rootPathPrefix": "#",
+                            "rootPathSuffix": "."
+                        }
+                    ]
+                ]
+            ]
+        },
+        "production": {
+            "plugins": ["transform-react-remove-prop-types"]
+        }
+    }
+}

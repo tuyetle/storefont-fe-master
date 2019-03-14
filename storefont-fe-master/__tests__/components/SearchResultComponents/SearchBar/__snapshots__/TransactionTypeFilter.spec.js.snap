@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) TransactionTypeFilter should render conrectly 1`] = `
+<div
+  className="ant-radio-group ant-radio-group-large css-19r9xb2"
+  id={undefined}
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={undefined}
+/>
+`;

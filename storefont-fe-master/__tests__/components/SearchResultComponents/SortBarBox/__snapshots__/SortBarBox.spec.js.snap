@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) SortBarBox should render conrectly 1`] = `
+<div
+  className="css-zwxkl8 css-sl3pwm"
+>
+  <div
+    className="dropdown"
+    onKeyDown={[Function]}
+  >
+    <a
+      aria-expanded={false}
+      aria-haspopup={true}
+      className="css-12368be css-1rce7jy"
+      data-toggle="dropdown"
+      onClick={[Function]}
+    >
+      oldToNew
+    </a>
+    <div
+      aria-hidden={true}
+      className="null pull-right dropdown-menu"
+      role="menu"
+      tabIndex="-1"
+    >
+      <section
+        className={
+          Object {
+            "data-css-4n0gx5": "",
+          }
+        }
+      >
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button"
+          value="oldToNew"
+        >
+          oldToNew
+        </button>
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button"
+          value="newToOld"
+        >
+          newToOld
+        </button>
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button"
+          value="lowToHighPrice"
+        >
+          lowToHighPrice
+        </button>
+        <button
+          className="dropdown-item"
+          onClick={[Function]}
+          tabIndex="0"
+          type="button"
+          value="highToLowPrice"
+        >
+          highToLowPrice
+        </button>
+      </section>
+    </div>
+  </div>
+</div>
+`;

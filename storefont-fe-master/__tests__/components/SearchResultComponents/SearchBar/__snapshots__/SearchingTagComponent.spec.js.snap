@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) SearchingTagComponent should render conrectly 1`] = `
+<div
+  className="css-15sezzo"
+>
+  <svg
+    height="18"
+    viewBox="0 0 18 18"
+    width="18"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17.297 16.282l-4.22-4.388a7.134 7.134 0 0 0 1.68-4.6c0-3.946-3.21-7.157-7.156-7.157S.444 3.347.444 7.294c0 3.946 3.21 7.156 7.157 7.156a7.075 7.075 0 0 0 4.1-1.295l4.251 4.421a.929.929 0 0 0 1.319.025.935.935 0 0 0 .026-1.319zM7.601 2.004a5.296 5.296 0 0 1 5.289 5.29 5.295 5.295 0 0 1-5.289 5.289 5.295 5.295 0 0 1-5.29-5.289 5.296 5.296 0 0 1 5.29-5.29z"
+      fill="#606060"
+    />
+  </svg>
+  Creatable
+</div>
+`;

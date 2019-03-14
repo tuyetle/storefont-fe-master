@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) RegistrationContent should render conrectly 1`] = `
+<form
+  className="css-1gpz2pu"
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="css-sj2822"
+  >
+     
+    register
+     
+  </div>
+  <div
+    className="css-193a9w1"
+  >
+     
+    registerDescription
+  </div>
+  <div
+    className="css-3ldr24"
+  />
+  <div
+    className="css-1825lq2"
+  />
+  <div
+    className="form-group"
+  >
+    <strong
+      className={undefined}
+    >
+      emailOrPhone
+    </strong>
+    Field
+  </div>
+  <div
+    className="css-1hvtdrp"
+  >
+    Field
+  </div>
+  <div>
+    <label
+      className="css-e5gafv"
+    >
+      Field
+      <span>
+        receiveNews
+      </span>
+    </label>
+  </div>
+  <input
+    className="css-7qje71"
+    disabled={true}
+    type="submit"
+    value="register"
+  />
+  <div
+    className="css-42kidg"
+  >
+    rulesAndConditionBefore
+    <a
+      className="css-1ezp9xe"
+      href="/"
+      onClick={[Function]}
+    >
+      rulesAndCondition
+    </a>
+    rulesAndConditionAfter
+  </div>
+</form>
+`;

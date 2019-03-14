@@ -1,0 +1,26 @@
+const DATE_SHORT_TYPE = 'DATE_SHORT';
+const DATE_LONG_TYPE = 'DATE_LONG';
+const PRICE_FORMAT_TYPE = 'PRICE_FORMAT';
+const NUMBER_FORMAT_TYPE = 'NUMBER_FORMAT';
+const MONEY_FORMAT_TYPE = 'MONEY_FORMAT';
+
+module.exports = {
+  DEFAULT_LOCALE: 'vi',
+
+  DATE_SHORT_TYPE,
+  DATE_LONG_TYPE,
+  PRICE_FORMAT_TYPE,
+  NUMBER_FORMAT_TYPE,
+  MONEY_FORMAT_TYPE,
+
+  CONFIG: {
+    vi: {
+      DATE_SHORT: 'DD-MM-YYYY',
+      DATE_LONG: 'MMMM Do YYYY',
+      PRICE_FORMAT: '0,0 $',
+      NUMBER_FORMAT: '0,0.[###]',
+      MONEY_FORMAT: '0.[##]a',
+    },
+    en: {},
+  },
+};

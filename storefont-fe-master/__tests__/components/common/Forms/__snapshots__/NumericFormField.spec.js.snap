@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) NumericFormField should render conrectly 1`] = `
+<input
+  className="form-control "
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onMouseUp={[Function]}
+  placeholder=""
+  type="text"
+  value=""
+/>
+`;

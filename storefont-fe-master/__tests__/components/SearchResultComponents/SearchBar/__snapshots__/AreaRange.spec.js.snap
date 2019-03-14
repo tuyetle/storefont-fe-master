@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AreaRange should render conrectly 1`] = `
+<section
+  className="row css-70fnwa"
+>
+  <div
+    className="col-md-6"
+  >
+    <label
+      className="css-legfcw"
+    />
+    <div
+      className="input-group"
+    >
+      Field
+      <span
+        className="input-group-addon"
+      >
+        m
+        <sup>
+          2
+        </sup>
+      </span>
+    </div>
+  </div>
+  <div
+    className="col-md-6 css-17xsdqc"
+  >
+    <label
+      className="css-legfcw"
+    />
+    <div
+      className="input-group"
+    >
+      Field
+      <span
+        className="input-group-addon"
+      >
+        m
+        <sup>
+          2
+        </sup>
+      </span>
+    </div>
+  </div>
+</section>
+`;
